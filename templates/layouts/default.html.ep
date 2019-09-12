@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <%= stylesheet '/css/common.css' %>
+  <head><title><%= title %></title></head>
+  <body><%= content %></body>
+</html>

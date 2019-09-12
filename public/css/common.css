@@ -1,0 +1,381 @@
+
+
+/* Default settings */
+  
+  /* all */
+  * {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    -webkit-text-size-adjust:100%;
+  }
+  a, a:visited {
+    color:#0055FF;
+  }
+  
+  /* header */
+  .header {
+    background:white;
+    border-bottom:5px solid #009D82;
+  }
+  .header-content {
+    width:100%;
+    max-width:860px;
+    margin:0 auto;
+    overflow:hidden;
+  }
+  .header-content-title {
+    float:left;
+    width:15%;
+    max-width:150px;
+    padding-top:5px;
+  }
+  .header-content-menu {
+    width:85%;
+    float:right;
+    text-align:center;
+    padding-top:18px;
+    list-style:none;
+  }  
+  .header-content-menu li {
+    display:inline-block;
+    float:left;
+  }
+  .header-content-menu a {
+    font-size:15px;
+    text-decoration:none;
+    color:#444;
+    margin-right:18px;
+    background:white;
+  }
+  
+  .menu-button {
+    display:none;
+  }
+  
+  a.otoiawase {
+    background:#009D82;
+    color:white;
+    border-radius:5px;
+    text-decoration:none;
+    padding:7px 10px 5px 10px;
+  }
+  
+  /* footer */
+  .footer {
+    background:white;
+    margin-top:15px;
+    text-align:center;
+    padding:15px 0;
+    border-top:1px solid #00A78C;
+  }
+  .footer a, .footer a:visited {
+    color:#000;
+  }
+  
+  /* container */
+  .container {
+    background:#f7fffd url(/images/background.jpg);
+  }
+  
+  /* main */
+  .main {
+    max-width:860px;
+    width:100%;
+    margin: 0 auto 15px auto;
+  }
+  .main:after {
+    content:"";
+    display:block;
+    clear:both;
+  }
+  
+  /* content */
+  .content {
+    float:left;
+    width:100%;
+  }
+  
+  /* entry */
+  .entry {
+    border:1px solid #20C7AB;
+    background:white;
+    padding:15px 30px;
+    margin-bottom:10px;
+    border-radius:4px;
+    margin-top:15px;
+  }
+  .entry li {
+    margin-left:25px;
+    line-height:1.5;
+  }
+  
+  /* side */
+  .side {
+    float:left;
+    width:100%;
+    margin-left:1%;
+    display:none;
+  }
+  
+  /* tags */
+  h1 {
+    max-width:860px;
+    width:100%;
+    font-size:30px;
+    padding:12px 10px 10px 13px;
+    margin: 0 auto;
+  }
+  .site-description {
+    max-width:860px;
+    width:100%;
+    margin: 0 auto;
+    padding:0px 15px 15px 15px;
+  }
+  h1 a, h1 a:visited {
+    text-decoration:none;
+    color:#0f213d;
+  }
+  h2 {
+    font-size:29px;
+    padding:10px 0;
+    letter-spacing:2px;
+  }
+  h2 a, h2 a:visited {
+    text-decoration:none;
+    color:#000;
+  }
+  h3 {
+    font-size:22px;
+    border-left:7px solid #00977B;
+    padding:6px 0px 4px 12px;
+    letter-spacing:1.5px;
+    margin:30px auto 10px auto;
+  }
+  h4 {
+    font-size:17px;
+    font-weight:bold;
+    padding:6px 0px 4px 5px;
+    letter-spacing:0.5px;
+    margin:15px 0 10px 0;
+  }
+  p {
+    font-size:16px;
+    color:#111;
+    margin:10px 0;
+    line-height:1.5;
+    padding:0 15px;
+  }
+  pre {
+    font-size:16px;
+    background:#FCFCFC;
+    border:1px solid #CCCCCC;
+    border-radius:5px;
+    padding:10px 15px;
+    margin:10px 0;
+    line-height:1.5;
+    white-space:pre-wrap;
+  }
+  blockquote {
+    font-size:16px;
+    background:#FCFCFC;
+    border:1px solid #CCCCCC;
+    border-radius:5px;
+    padding:10px 15px;
+    margin:10px 0;
+    line-height:1.5;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin-left:15px;
+  }
+
+  table th {
+    border:1px solid #ddd;
+    padding:7px;
+    background:#efe;
+    font-weight:bold;
+  }
+
+  table td {
+    border:1px solid #ddd;
+    padding:7px;
+  }
+  
+  table i {
+    color:green;
+    font-weight:bold;
+  }
+  
+  /* advanced */
+  .day {
+    text-align:right;
+    color:#999;
+  }
+  .before-days {
+    text-align:center;
+  }
+  .side-list {
+    box-shadow: 0 0 3px rgba(0,0,0,.1);
+  }
+  .side-list-title {
+    background:#3081ff;
+    color:white;
+    font-weight:bold;
+    padding: 7px 0px 5px 0px;
+    text-align:center;
+    border:1px solid #ccc;
+    border-bottom:none;
+  }
+  .side-list ul {
+    border:1px solid #ccc;
+  }
+  .side-list li {
+    list-style:none;
+    background:white;
+    border-bottom:1px solid #ccc;
+    padding:7px 15px 5px 15px;
+  }
+  .side li:last-child {
+    border-bottom:none;
+  }
+
+  img {
+    max-width:100%;
+  }
+  
+  /* メールフォーム */
+  .mail-form {
+    padding:10px 20px;
+  }
+  .mail-form-title {
+    font-weight:bold;
+    margin-bottom:3px;
+    letter-spacing:1px;
+  }
+  
+  .mail-form label {
+    margin-bottom:14px;
+    display:block;
+  }
+  .mail-form input {
+    width:90%;
+    max-width:500px;
+    padding:5px;
+    font-size:16px;
+  }
+  .mail-form textarea {
+    width:90%;
+    max-width:500px;
+    min-height:200px;
+  }
+  .mail-form button {
+    width:300px;
+    background:#D82E5D;
+    color:white;
+    border:none;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    font-size:20px;
+    border-radius:10px;
+    margin-bottom:30px;
+    padding:10px 0 7px 0;
+    cursor:pointer;
+  }
+  .mail-form-success {
+    color:green;
+  }
+  .mail-form-errors {
+    color:red;
+  }
+
+  .index-features .special {
+    padding:0;
+  }
+  
+  .index-features li {
+  }
+  .index-features a {
+    display:block;
+    width:100%;
+    color:inherit;
+    text-decoration:none;
+    height:100%;
+    border-radius:5px;
+    padding-top:16px;
+  }
+  .index-features a:hover {
+    background:#ebfcfa;
+  }
+/* Tablet and Smart phone */
+@media only screen and (max-width:860px) {
+  .content {
+    float:none;
+    width:100%;
+    margin:0 auto;
+    margin-bottom:0px;
+    border-radisu:0;
+  }
+  .side {
+    float:none;
+    width:97%;
+    margin:0 auto;
+  }
+  .entry {
+    border:none;
+    margin-bottom:0px;
+    padding:10px 20px;
+    margin-top:0;
+  }
+  .container {
+    padding:0;
+  }
+  .header {
+    width:100%;
+    margin-bottom:0;
+    border-width:1px;
+    padding:0;
+  }
+  .footer {
+    margin-top:0px;
+  }
+  .main {
+    margin-bottom:0;
+  }
+
+  .menu-button {
+    float:right;
+    display:block;
+    width:20%;
+    text-align:right;
+    padding-top:11px;
+    padding-right:5px;
+    cursor:pointer;
+  }
+
+  .header-content-title {
+    padding-left:10px;
+    width:80%;
+  }
+  
+  .header-content-menu {
+    display:none;
+    width:100%;
+    padding-top:0;
+  }  
+  .header-content-menu li {
+    width:100%;
+    border-top:1px solid #ddd;
+  }
+  .header-content-menu a {
+    display:block;
+    width:100%;
+    padding:10px 10px;
+    margin:0;
+  }
+  a.otoiawase {
+    background:white;
+    color:#333;
+  }
+
+}

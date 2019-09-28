@@ -2,7 +2,7 @@
 % title 'Perlゼミ公式サイト';
 
 <p style="display:none">
-  PerlゼミはGitで管理できるサイト・ブログを作成するためのツールです。
+  Perlゼミは、プログラミング言語Perlを使ったプログラミングの学習サイトです。すべての講座を無料で受講できます。
 </p>
 
 <style>
@@ -18,13 +18,18 @@
   }
   .index-head {
     text-align:center;
-    background:#009D82;
-    padding:80px 0 70px 0;
+    background-color:#009D82;
+    background-image:url(/images/note-pc-boy.png);
+    background-repeat:no-repeat;
+    background-size:240px;
+    background-position: 5px 10px;
+    padding:70px 0 95px 0;
   }
   .index-head h2 {
     color:white;
-    font-size:50px;
+    font-size:40px;
     letter-spacing:1.5px;
+    padding-left:180px;
   }
 
   .index-content {
@@ -35,7 +40,7 @@
   }
 
   h3 {
-    font-size:34px;
+    font-size:24px;
     letter-spacing:1.5px;
     padding:0;
     margin:0;
@@ -44,9 +49,11 @@
 
   .index-head-description {
     color:white;
-    font-size:22px;
+    font-size:21px;
     letter-spacing:1px;
-    margin-top:5px;
+    margin-top:10px;
+    padding-left:250px;
+    line-height:1.5;
   }
   
   .index-start {
@@ -118,6 +125,18 @@
   }
 
   @media only screen and (max-width:860px) {
+    .index-head {
+      padding:0;
+      height:500px;
+      background-position:center 200px;
+    }
+    .index-head h2 {
+      padding:0;
+      padding-top:20px;
+    }
+    .index-head-description {
+      padding:0 10px;;
+    }
     .index-content {
       width:98%;;
       margin:0 auto -10px auto;
@@ -134,19 +153,12 @@
 <div class="index-head">
   <h2>Perlゼミのご紹介</h2>
   <div class="index-head-description">
-    Perlゼミは、プログラミング言語Perlを使ったプログラミングの学習サイトです。
+    Perlゼミは、プログラミング言語Perlを使ったプログラミングの学習サイトです。<br>すべての講座を無料で受講できます。
   </div>
 </div>
 <div class="index-content" style="max-width:680px;width">
-  <h3 style="margin:30px 0 20px 0">Perlプログラミングを覚えると、検索や置換をするテキスト処理、Linuxサーバー管理、Webサイト制作・Web開発が簡単にできます。</h3>
-  <div style="color:#111">
-    「この文字だけ変更したいんだけど」「自動でバックアップしたい」「スタートアップでWebサイトがすぐに欲しい」を解決します。
-  </div>
+  <h3 style="margin:50px 0 20px 0">Perlプログラミングを覚えると、検索や置換をするテキスト処理、Linuxサーバー管理、Webサイト制作・Web開発が簡単にできます。</h3>
 </div>
-<div class="index-start">
-  <a href="javascript:void()">会員登録(準備中)</a>
-</div>
-
 <div class="index-content">
   <h3 style="font-size:33px; margin:80px 0 20px 0;text-align:center">Perlプログラミング入門講座</h3>
   <div style="color:#111">
@@ -158,7 +170,7 @@
 </div>
 
 <div class="index-content">
-  <h3 style="font-size:33px; margin:80px 0 20px 0;text-align:center">テキスト処理プログラミング講座</h3>
+  <h3 style="font-size:33px; margin:80px 0 20px 0;text-align:center">テキスト処理入門講座</h3>
   <div style="color:#111">
     <a href="javascript:void(0)"><img src="/images/index/perlzemitext-image.png" style="border:1px solid #ddd"></a>
   </div>
@@ -178,7 +190,7 @@
 </div>
 
 <div class="index-content">
-  <h3 style="font-size:33px; margin:80px 0 20px 0;text-align:center">Webサイト制作講座</h3>
+  <h3 style="font-size:33px; margin:80px 0 20px 0;text-align:center">Webサイト制作入門講座</h3>
   <div style="color:#111">
     <a href="javascript:void(0)"><img src="/images/index/giblog-website-image.png" style="border:1px solid #ddd"></a>
   </div>
@@ -188,7 +200,7 @@
 </div>
 
 <div class="index-content">
-  <h3 style="font-size:33px; margin:80px 0 20px 0;text-align:center">Webサービス開発講座</h3>
+  <h3 style="font-size:33px; margin:80px 0 20px 0;text-align:center">Web開発入門講座</h3>
   <div style="color:#111">
     <a href="javascript:void(0)"><img src="/images/index/perlzemiweb-image.png" style="border:1px solid #ddd"></a>
   </div>
@@ -273,13 +285,14 @@
 
 <div class="index-sitemap">
   <ul>
-    <li><b>Perlゼミの無料コンテンツ</b></li>
+    <li><b>Perlゼミの無料Webコンテンツ</b></li>
     <li><a style="font-size:16px;text-decoration:none;" href="https://tutorial.perlzemi.com/">Perl入門ゼミ</a></li>
     <li><a style="font-size:16px;text-decoration:none;" href="https://text.perlzemi.com/">テキスト処理プログラミング</a></li>
     <li><a style="font-size:16px;text-decoration:none;" href="https://linux.perlzemi.com/">Linuxサーバー管理入門</a></li>
     <li><a style="font-size:16px;text-decoration:none;" href="https://web.perlzemi.com/">Mojoliciousスタートアップ</a>
     <li><a style="font-size:16px;text-decoration:none;" href="https://philosophy.perlzemi.com/">Perlの哲学</a>
-    <li><a style="font-size:16px;text-decoration:none;" href="https://newbie.perlzemi.com/">Perl Niebies</a>
+    <li><a style="font-size:16px;text-decoration:none;" href="https://newbie.perlzemi.com/">Perl Newbies</a>
+    <li><b>Perlゼミのオープンソースプロジェクト</b></li>
     <li><a style="font-size:16px;text-decoration:none;" href="https://yuki-kimoto.github.io/">オープンソースプロジェクト</a></li>
   </ul>
 </div>

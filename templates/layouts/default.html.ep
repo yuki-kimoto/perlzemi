@@ -2,6 +2,7 @@
 <html>
   <meta charset="UTF-8">
   <%= stylesheet '/css/common.css' %>
+  <link rel="shortcut icon" href="/images/favicon.png">
   <head><title><%= title %></title></head>
   <body><%= content %></body>
 </html>

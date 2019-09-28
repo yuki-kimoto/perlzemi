@@ -101,7 +101,6 @@
   }
 
   .index-courses ul {
-    overflow:hidden;
     margin:0 auto;
   }
   .index-courses li {
@@ -113,14 +112,20 @@
     margin-left:0.5%;
     margin-right:0.5%;
     margin-bottom:5px;
-    padding:5px;
     height:150px;
     text-align:center;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+  }
+  .index-courses a {
+    padding:20px;
+    color:#333;
+    text-decoration:none;
+    display:block;
+    width:100%;
+    height:100%;
+    font-weight:bold;
   }
   .index-courses-title {
-    margin-top:10px;
-    margin-bottom:10px;
-    font-weight:bold;
   }
   
   .index-features ul {
@@ -173,6 +178,9 @@
     .index-features li {
       width:100%;
     }
+    .index-courses li {
+      width:100%;
+    }
   }
 </style>
 
@@ -189,40 +197,32 @@
     <section class="index-courses">
       <h3 style="font-size:24px; margin:0px 0 20px 0;text-align:center;padding-top:60px;padding-bottom:10px;">Perlプログラミングを覚えると、検索や置換をするテキスト処理、Linuxサーバー管理、Webサイト制作・Web開発が簡単にできます。<br>基礎から学べる入門講座で学んでみませんか。</h3>
       <ul>
-        <li class="special" style="background:#04cfa6;color:white;border-radius:0;">
+        <li style="background:#04cfa6;color:white;border-radius:0;">
           <div class="index-courses-title" style="margin-top:0;margin-bottom:0;font-size:18px;font-weight:bold;padding:50px 10px;">５つの入門講座からお選びいただけます。</div>
         </li>
-        <li class="special">
-          <a href="javascript:void(0)">
-            <div>
-              <img src="/images/index/perlzemitut-image.png" style="border:1px solid #ddd">
-            </div>
-            <div class="index-courses-title" style="margin-top:0;margin-bottom:0">Perlプログラミング入門講座</div>
-            <!-- <div><img src="/images/features-icon/git-icon.png" style="height:80px"></div> -->
+        <li >
+          <a href="https://tutorial.perlzemi.com/">
+            <div class="index-courses-title">Perlプログラミング入門講座</div>
           </a>
         </li>
-        <li class="special">
-          <a href="javascript:void(0)">
-            <div class="index-courses-title" style="margin-top:0;margin-bottom:0">テキスト処理入門講座</div>
-            <!-- <div><img src="/images/features-icon/replace-icon.png" style="height:80px"></div> -->
+        <li >
+          <a href="https://text.perlzemi.com/">
+            <div class="index-courses-title">テキスト処理入門講座</div>
           </a>
         </li>
-        <li class="special">
-          <a href="javascript:void(0)">
-            <div class="index-courses-title" style="margin-top:0;margin-bottom:0">Linxuサーバー管理入門講座</div>
-            <!-- <div><img src="/images/features-icon/seo-icon.png" style="height:80px"></div> -->
+        <li >
+          <a href="https://linux.perlzemi.com/">
+            <div class="index-courses-title">Linxuサーバー管理入門講座</div>
           </a>
         </li>
-        <li class="special">
-          <a href="javascript:void(0)">
-            <div class="index-courses-title" style="margin-top:0;margin-bottom:0">Webサイト制作入門講座</div>
-            <!-- <div><img src="/images/features-icon/form-icon.png" style="height:80px"></div> -->
+        <li >
+          <a href="https://jp.giblog.net/">
+            <div class="index-courses-title">Webサイト制作入門講座</div>
           </a>
         </li>
-        <li class="special">
-          <a href="javascript:void(0)">
-            <div class="index-features-title" style="margin-top:0;margin-bottom:0">Web開発入門講座</div>
-            <!-- <div><img src="/images/features-icon/rebuild-icon.png" style="height:80px"></div> -->
+        <li >
+          <a href="https://web.perlzemi.com/">
+            <div class="index-courses-title">Web開発入門講座</div>
           </a>
         </li>
       </ul>
@@ -230,56 +230,58 @@
   </div>
 </div>
 
+<div style="clear:both;"></div>
+
 <div style="background:#F5F5F5;padding-bottom:50px;">
   <div class="index-content">
     <section class="index-features">
       <h3 style="font-size:26px; margin:80px 0 20px 0;text-align:center;padding-top:30px;">Perlプログラミングであなたの仕事を楽にしよう<br>あなたの夢をかなえよう<br>工夫次第で、可能性は無限大。</h3>
       <ul>
-        <li class="special">
+        <li >
           <a href="javascript:void(0)">
-            <div class="index-features-title" style="margin-top:0;margin-bottom:0">テキストの検索・一括置換</div>
+            <div class="index-features-title">テキストの検索・一括置換</div>
             <!-- <div><img src="/images/features-icon/replace-icon.png" style="height:80px"></div> -->
           </a>
         </li>
-        <li class="special">
+        <li >
           <a href="javascript:void(0)">
-            <div class="index-features-title" style="margin-top:0;margin-bottom:0">定型処理の自動化</div>
+            <div class="index-features-title">定型処理の自動化</div>
             <!-- <div><img src="/images/features-icon/git-icon.png" style="height:80px"></div> -->
           </a>
         </li>
-        <li class="special">
+        <li >
           <a href="javascript:void(0)">
-            <div class="index-features-title" style="margin-top:0;margin-bottom:0">サーバーログの解析</div>
+            <div class="index-features-title">サーバーログの解析</div>
             <!-- <div><img src="/images/features-icon/replace-icon.png" style="height:80px"></div> -->
           </a>
         </li>
-        <li class="special">
+        <li >
           <a href="javascript:void(0)">
-            <div class="index-features-title" style="margin-top:0;margin-bottom:0">情報発信用のWebサイト作成</div>
+            <div class="index-features-title">情報発信サイト作成</div>
             <!-- <div><img src="/images/features-icon/seo-icon.png" style="height:80px"></div> -->
           </a>
         </li>
-        <li class="special">
+        <li >
           <a href="javascript:void(0)">
-            <div class="index-features-title" style="margin-top:0;margin-bottom:0">ECサイト作成</div>
+            <div class="index-features-title">ECサイト作成</div>
             <!-- <div><img src="/images/features-icon/form-icon.png" style="height:80px"></div> -->
           </a>
         </li>
-        <li class="special">
+        <li >
           <a href="javascript:void(0)">
-            <div class="index-features-title" style="margin-top:0;margin-bottom:0">スマフォアプリ用のJSON生成</div>
+            <div class="index-features-title">スマフォアプリ用のJSON生成</div>
             <!-- <div><img src="/images/features-icon/rebuild-icon.png" style="height:80px"></div> -->
           </a>
         </li>
-        <li class="special">
+        <li >
           <a href="javascript:void(0)">
-            <div class="index-features-title" style="margin-top:0;margin-bottom:0">Excelの処理を高速化</div>
+            <div class="index-features-title">Excelの処理を高速化</div>
             <!-- <div><img src="/images/features-icon/responsive-icon.png" style="height:80px"></div> -->
           </a>
         </li>
-        <li class="special">
+        <li >
           <a href="javascript:void(0)">
-            <div class="index-features-title" style="margin-top:0;margin-bottom:0">テキストデータ分析</div>
+            <div class="index-features-title">テキストデータ分析</div>
             <!-- <div><img src="/images/features-icon/os-icon.png" style="height:80px"></div> -->
           </a>
         </li>

@@ -122,18 +122,25 @@
 </div>
 
 <div class="index-sitemap">
-  
-  <ul>
-    <li><b>Perlゼミの無料Webコンテンツ</b></li>
-    <li><a style="font-size:16px;text-decoration:none;" href="https://tutorial.perlzemi.com/">Perl入門ゼミ</a></li>
-    <li><a style="font-size:16px;text-decoration:none;" href="https://text.perlzemi.com/">テキスト処理プログラミング</a></li>
-    <li><a style="font-size:16px;text-decoration:none;" href="https://linux.perlzemi.com/">Linuxサーバー管理入門</a></li>
-    <li><a style="font-size:16px;text-decoration:none;" href="https://web.perlzemi.com/">Mojoliciousスタートアップ</a>
-    <li><a style="font-size:16px;text-decoration:none;" href="https://philosophy.perlzemi.com/">Perlの哲学</a>
-    <li><a style="font-size:16px;text-decoration:none;" href="https://newbie.perlzemi.com/">Perl Newbies</a>
-    <li><b>Perlゼミのオープンソースプロジェクト</b></li>
-    <li><a style="font-size:16px;text-decoration:none;" href="https://yuki-kimoto.github.io/">オープンソースプロジェクト</a></li>
-  </ul>
+  <div class="index-sitemap-inner">
+    <div class="index-sitemap-left">
+      <ul>
+        <li><b>Perlゼミの無料Webコンテンツ</b></li>
+        <li><a style="font-size:16px;text-decoration:none;" href="https://tutorial.perlzemi.com/">Perl入門ゼミ</a></li>
+        <li><a style="font-size:16px;text-decoration:none;" href="https://text.perlzemi.com/">テキスト処理プログラミング</a></li>
+        <li><a style="font-size:16px;text-decoration:none;" href="https://linux.perlzemi.com/">Linuxサーバー管理入門</a></li>
+        <li><a style="font-size:16px;text-decoration:none;" href="https://web.perlzemi.com/">Mojoliciousスタートアップ</a>
+        <li><a style="font-size:16px;text-decoration:none;" href="https://philosophy.perlzemi.com/">Perlの哲学</a>
+        <li><a style="font-size:16px;text-decoration:none;" href="https://newbie.perlzemi.com/">Perl Newbies</a>
+      </ul>
+    </div>
+    <div class="index-sitemap-right">
+      <ul>
+        <li><b>Perlゼミのオープンソースプロジェクト</b></li>
+        <li><a style="font-size:16px;text-decoration:none;" href="https://yuki-kimoto.github.io/">オープンソースプロジェクト</a></li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 %= include '/include/footer';

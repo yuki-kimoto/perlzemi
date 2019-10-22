@@ -1,8 +1,8 @@
 % layout 'default';
-% title 'Perlゼミ公式サイト';
+% title 'Perlゼミのプログラミングスクール - プログラミング教育の教材を提供します';
 
 <p style="display:none">
-  Perlゼミは、プログラミング言語Perlを使ったプログラミングの学習サイトです。Web上のすべての講座を無料で受講できます。
+  Perlゼミのプログラミングスクールは、Perlというプログラミング言語を使ったシステム開発を基礎から学べます。プログラミング教育の教材としても最適です。
 </p>
 
 <style>
@@ -187,15 +187,15 @@
 %= include '/include/header';
 
 <div class="index-head">
-  <h2>Perlゼミのご紹介</h2>
+  <h2>Perlゼミのプログラミングスクールのご紹介</h2>
   <div class="index-head-description">
-    Perlゼミは、プログラミング言語Perlを使ったプログラミングの学習サイトです。<br>Web上のすべての講座を無料で受講できます。
+    Perlゼミのプログラミングスクールは<br>プログラミング言語Perlを使ったプログラミングの学習サイトです。<br>プログラミング教育の教材をWeb上で無料で公開しています。
   </div>
 </div>
 <div style="background:white;padding-bottom:50px;">
   <div class="index-content">
     <section class="index-courses">
-      <h3 style="font-size:24px; margin:0px 0 20px 0;text-align:center;padding-top:60px;padding-bottom:10px;">Perlプログラミングを覚えると、検索や置換をするテキスト処理、Linuxサーバー管理、Webサイト制作・Web開発が簡単にできます。<br>基礎から学べる入門講座で学んでみませんか。</h3>
+      <h3 style="font-size:24px; margin:0px 0 20px 0;text-align:center;padding-top:60px;padding-bottom:10px;">Perlプログラミングを覚えると、検索や置換をするテキスト処理、Linuxサーバー管理、Webサイト制作・Web開発が簡単にできます。<br>Perlゼミのプログラミングスクールでプログラミングの基礎を学んでみませんか。</h3>
       <ul>
         <li style="background:#04cfa6;color:white;border-radius:0;">
           <div class="index-courses-title" style="margin-top:0;margin-bottom:0;font-size:18px;font-weight:bold;padding:50px 10px;">５つの入門講座からお選びいただけます。</div>

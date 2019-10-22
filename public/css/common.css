@@ -11,6 +11,7 @@
   }
   a, a:visited {
     color:#0055FF;
+    cursor:pointer;
   }
   
   /* header */
@@ -18,29 +19,43 @@
     background:white;
     border-bottom:5px solid #009D82;
   }
-  .header-content {
+  .header-inner {
     width:100%;
     max-width:860px;
     margin:0 auto;
     overflow:hidden;
   }
-  .header-content-title {
+  .header-left {
     float:left;
-    width:20%;
+    width:60%;
+  }
+  .header-right {
+    float:left;
+    width:40%;
+  }
+  .header-title {
+    float:left;
     padding-top:5px;
   }
-  .header-content-menu {
-    width:85%;
+  .header-title a {
+    padding:5px 0px 6px 49px;
+    display:inline-block;
+    color:#333;
+    font-size:17px;
+    text-decoration:none;
+    font-weight:bold;
+    background:url(/images/perlzemi-school-logo.png) no-repeat 0px 7px/43px;
+  }
+  .header-menu {
     float:right;
     text-align:center;
     padding-top:18px;
     list-style:none;
   }  
-  .header-content-menu li {
+  .header-menu li {
     display:inline-block;
-    float:left;
   }
-  .header-content-menu a {
+  .header-menu a {
     font-size:15px;
     text-decoration:none;
     color:#444;
@@ -53,7 +68,7 @@
   }
   
   a.otoiawase {
-    background:#009D82;
+    background:#D82E5D;
     color:white;
     border-radius:5px;
     text-decoration:none;
@@ -369,7 +384,7 @@
     overflow:hidden;
   }
   .index-sitemap-inner {
-    width:760px;
+    width:860px;
     margin:0 auto;
   }
   .index-sitemap-left {
@@ -489,41 +504,6 @@
     margin-bottom:0;
   }
 
-  .menu-button {
-    float:right;
-    display:block;
-    width:20%;
-    text-align:right;
-    padding-top:11px;
-    padding-right:5px;
-    cursor:pointer;
-  }
-
-  .header-content-title {
-    padding-left:10px;
-    width:80%;
-  }
-  
-  .header-content-menu {
-    display:none;
-    width:100%;
-    padding-top:0;
-  }  
-  .header-content-menu li {
-    width:100%;
-    border-top:1px solid #ddd;
-  }
-  .header-content-menu a {
-    display:block;
-    width:100%;
-    padding:10px 10px;
-    margin:0;
-  }
-  a.otoiawase {
-    background:white;
-    color:#333;
-  }
-
   .index-head {
     padding:0;
     height:500px;
@@ -547,4 +527,15 @@
   .index-courses li {
     width:100%;
   }
+
+  .index-sitemap-inner {
+    width:100%;
+  }
+  .index-sitemap-left {
+    width:100%;
+  }
+  .index-sitemap-right {
+    width:100%;
+  }
+
 }

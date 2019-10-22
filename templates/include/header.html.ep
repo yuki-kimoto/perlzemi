@@ -5,26 +5,22 @@
       var width = $(window).width();
       
       if (width > 860) {
-        $('.header-content-menu').show();
+        $('.header-menu').show();
       }
     });
   });
 </script>
 
-<div class="header-content">
-  <div class="header-content-title">
-    <a href="/"><img src="/images/perlzemi-logo.png" width="200" alt="Perlゼミ公式サイト" style="vertical-align:-60px;"></a>
+<div class="header-inner">
+  <div class="header-left">
+    <div class="header-title">
+      <a href="/"><span style="letter-spacing:2px;">Perlゼミの</span><br>プログラミングスクール</a>
+    </div>
   </div>
-  <!--
-  <div class="menu-button" onclick="$('.header-content-menu').toggle();">
-    <img src="/images/menu.png" style="width:40px;">
+  <div class="header-right">
+    <ul class="header-menu">
+      <li><a class="otoiawase" title="準備中">会員登録</a></li>
+      <li><a class="otoiawase" style="background-color:#009D82"title="準備中">ログイン</a></li>
+    </ul>
   </div>
-  <ul class="header-content-menu">
-    <li><a href="/start.html">Perlゼミをはじめよう</a></li>
-    <li><a href="https://docjp.perlzemi.net/">公式ドキュメント</a></li>
-    <li><a href="/blog/20190829080844.html">フォーラム</a>
-    <li><a href="https://github.com/yuki-kimoto/perlzemi">リポジトリ</a></li>
-    <li><a class="otoiawase" href="/mail.html">お問い合わせ</a></li>
-  </ul>
-  -->
 </div>

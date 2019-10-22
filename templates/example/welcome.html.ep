@@ -21,14 +21,14 @@
 <div style="background:white;padding-bottom:50px;">
   <div class="index-content">
     <section class="index-courses">
-      <h3 style="font-size:24px; margin:0px 0 20px 0;text-align:center;padding-top:60px;padding-bottom:10px;">Perlプログラミングを覚えると、検索や置換をするテキスト処理、Linuxサーバー管理、Webサイト制作・Web開発が簡単にできます。<br>Perlゼミのプログラミングスクールでプログラミングの基礎を学んでみませんか。</h3>
-      <ul>
-        <li style="background:#04cfa6;color:white;border-radius:0;">
-          <div class="index-courses-title" style="margin-top:0;margin-bottom:0;font-size:18px;font-weight:bold;padding:50px 10px;">５つの入門講座からお選びいただけます。</div>
-        </li>
-        <li >
+      <h3>プログラミング入門講座</h3>
+      <div class="index-courses-description">
+        Perlゼミのプログラミングスクールの入門講座。プログラミング入門から初めて、テキスト処理の実践、Linuxサーバー管理、Webサイト制作、Web開発が学べる。
+      </div>
+      <ul style="color:#122">
+        <li>
           <a href="https://tutorial.perlzemi.com/">
-            <div class="index-courses-title">Perlプログラミング入門講座</div>
+            <div class="index-courses-title">プログラミング入門講座</div>
           </a>
         </li>
         <li >
@@ -51,6 +51,11 @@
             <div class="index-courses-title">Web開発入門講座</div>
           </a>
         </li>
+        <li >
+          <a href="javascript:void(0)">
+            <div class="index-courses-title">その他の講座</div>
+          </a>
+        </li>
       </ul>
     </section>
   </div>
@@ -58,10 +63,10 @@
 
 <div style="clear:both;"></div>
 
-<div style="background:#F5F5F5;padding-bottom:50px;">
+<div style="background:#dfe;padding-bottom:50px;">
   <div class="index-content">
     <section class="index-features">
-      <h3 style="font-size:26px; margin:80px 0 20px 0;text-align:center;padding-top:30px;">Perlプログラミングであなたの仕事を楽にしよう<br>あなたの夢をかなえよう<br>工夫次第で、可能性は無限大。</h3>
+      <h3 style="font-size:26px; margin:80px 0 20px 0;text-align:center;padding-top:30px;">プログラミングであなたの仕事を楽にしよう<br>あなたの夢をかなえよう<br>工夫次第で、可能性は無限大。</h3>
       <ul>
         <li >
           <a href="javascript:void(0)">

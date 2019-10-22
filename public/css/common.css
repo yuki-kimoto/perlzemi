@@ -33,6 +33,7 @@
     padding:0;
     box-sizing: border-box;
     -webkit-text-size-adjust:100%;
+    color:#122;
   }
   a, a:visited {
     color:#0055FF;
@@ -66,7 +67,7 @@
   .header-title a {
     padding:5px 0px 6px 49px;
     display:inline-block;
-    color:#364;
+    color:#122;
     font-size:17px;
     text-decoration:none;
     font-weight:bold;
@@ -459,6 +460,23 @@
     font-size:19px;
   }
 
+  .index-courses h3 {
+    color:#122;
+    font-size:28px;
+    margin:0px 0 20px 0;
+    text-align:center;
+    padding-top:60px;
+    padding-bottom:10px;
+    letter-spacing:2px;
+  }
+  .index-courses-description {
+    font-size:18px;
+    font-weight:bold;
+    letter-spacing:1px;
+    margin-bottom:15px;
+    padding:0 25px;
+  }
+ 
   .index-courses ul {
     margin:0 auto;
   }

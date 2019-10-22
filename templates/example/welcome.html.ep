@@ -5,185 +5,6 @@
   Perlゼミのプログラミングスクールは、Perlというプログラミング言語を使ったシステム開発を基礎から学べます。プログラミング教育の教材としても最適です。
 </p>
 
-<style>
-  .main {
-    max-width:100%;
-    margin:0;
-    padding:0;
-  }
-  .entry {
-    margin:0;
-    padding:0;
-    border:none;
-  }
-  .index-head {
-    text-align:center;
-    background-color:#009D82;
-    background-image:url(/images/note-pc-boy.png);
-    background-repeat:no-repeat;
-    background-size:240px;
-    background-position: 5px 20px;
-    padding:90px 0 105px 0;
-  }
-  .index-head h2 {
-    color:white;
-    font-size:40px;
-    letter-spacing:1.5px;
-    padding-left:180px;
-  }
-
-  .index-content {
-    max-width:860px;
-    width:100%;;
-    margin:0 auto -10px auto;
-    padding:0px 0 0px 0;
-  }
-
-  h3 {
-    font-size:24px;
-    letter-spacing:1.5px;
-    padding:0;
-    margin:0;
-    border:none;
-  }
-
-  .index-head-description {
-    color:white;
-    font-size:21px;
-    letter-spacing:1px;
-    margin-top:10px;
-    padding-left:250px;
-    line-height:1.5;
-  }
-  
-  .index-start {
-    margin:40px auto;
-    text-align:center;
-  }
-  .index-start a {
-    background:#D82E5D;
-    color:white;
-    text-decoration:none;
-    border-radius:5px;
-    display:inline-block;
-    padding:25px 40px;
-    width:80%;
-    max-width:400px;
-  }
-  
-  a.link, a.link:visited {
-    color:blue;
-    text-decoration:none;
-  }
-  .footer {
-    margin-top:0;
-    border-top:0;
-  }
-  .index-sitemap {
-    margin-top:50px;
-    background:#eee;
-    color:#000;
-    padding:20px;
-  }
-
-  .index-sitemap ul {
-    color:#000;
-    width:680px;
-    margin:0 auto;
-    line-height:1.8;
-  }
-  .index-sitemap li {
-    list-style:none;
-  }
-  .index-sitemap a, .index-sitemap a:visited {
-    color:#111;
-    font-size:19px;
-  }
-
-  .index-courses ul {
-    margin:0 auto;
-  }
-  .index-courses li {
-    list-style:none;
-    display:block;
-    float:left;
-    width:32.3%;
-    background:white;
-    margin-left:0.5%;
-    margin-right:0.5%;
-    margin-bottom:5px;
-    height:150px;
-    text-align:center;
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
-  }
-  .index-courses a {
-    padding:20px;
-    color:#333;
-    text-decoration:none;
-    display:block;
-    width:100%;
-    height:100%;
-    font-weight:bold;
-  }
-  .index-courses-title {
-  }
-  
-  .index-features ul {
-    overflow:hidden;
-    margin:0 auto;
-  }
-  .index-features li {
-    list-style:none;
-    display:block;
-    float:left;
-    width:49.5%;
-    max-width:600px;
-    background:white;
-    margin-right:0.5%;
-    margin-bottom:5px;
-    text-align:center;
-  }
-  .index-features a {
-    display:block;
-    width:100%;
-    color:inherit;
-    text-decoration:none;
-    height:100%;
-    border-radius:5px;
-    padding:27px 0 25px 0;
-    font-weight:bold;
-  }
-  .index-features a:hover {
-    background:#ebfcfa;
-  }
-
-  @media only screen and (max-width:860px) {
-    .index-head {
-      padding:0;
-      height:500px;
-      background-position:center 200px;
-    }
-    .index-head h2 {
-      padding:0;
-      padding-top:20px;
-    }
-    .index-head-description {
-      padding:0 10px;;
-    }
-    .index-content {
-      width:98%;;
-      margin:0 auto -10px auto;
-      padding:0px 0 0px 0;
-    }
-    .index-features li {
-      width:100%;
-    }
-    .index-courses li {
-      width:100%;
-    }
-  }
-</style>
-
 %= include '/include/header';
 
 <div class="index-head">
@@ -291,7 +112,7 @@
 </div>
 
 <div class="index-content" style="max-width:860px;width;text-align:center">
-  <h3 style="margin:90px 0 20px 0">Perlゼミで、Perlプログラミングの学習を始めてみませんか</h3>
+  <h3 style="margin:90px 0 20px 0">Perlゼミのプログラミングスクールで、プログラミングの学習を始めてみませんか</h3>
   <div style="color:#111">
     会員登録を行うと、Perlプログラミングの無料のオンライン講座をお試しいただけます。
   </div>
@@ -301,6 +122,7 @@
 </div>
 
 <div class="index-sitemap">
+  
   <ul>
     <li><b>Perlゼミの無料Webコンテンツ</b></li>
     <li><a style="font-size:16px;text-decoration:none;" href="https://tutorial.perlzemi.com/">Perl入門ゼミ</a></li>

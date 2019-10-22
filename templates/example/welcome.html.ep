@@ -8,9 +8,14 @@
 %= include '/include/header';
 
 <div class="index-head">
-  <h2>Perlゼミのプログラミングスクールのご紹介</h2>
-  <div class="index-head-description">
-    Perlゼミのプログラミングスクールは<br>プログラミング言語Perlを使ったプログラミングの学習サイトです。<br>プログラミング教育の教材をWeb上で無料で公開しています。
+  <div class="index-head-left">
+    <h2>Perlゼミのプログラミングスクールのご紹介</h2>
+    <div class="index-head-description">
+      Perlゼミのプログラミングスクールは<br>プログラミング言語Perlを使ったプログラミングの学習サイトです。<br>プログラミング教育の教材をWeb上で無料で公開しています。
+    </div>
+  </div>
+  <div class="index-head-right">
+    <img src="/images/note-pc-boy.png">
   </div>
 </div>
 <div style="background:white;padding-bottom:50px;">

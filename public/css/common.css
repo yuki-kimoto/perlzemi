@@ -66,7 +66,7 @@
   .header-title a {
     padding:5px 0px 6px 49px;
     display:inline-block;
-    color:#333;
+    color:#364;
     font-size:17px;
     text-decoration:none;
     font-weight:bold;
@@ -348,19 +348,44 @@
   .index-head {
     text-align:center;
     background-color:#009D82;
-    background-image:url(/images/note-pc-boy.png);
-    background-repeat:no-repeat;
-    background-size:240px;
-    background-position: 5px 20px;
+  }
+  .index-head-left {
+    float:right;
+    width:calc(100% - 270px);
     padding:90px 0 105px 0;
+  }
+  .index-head-right {
+    float:left;
+    width:270px;
+    padding:40px 0 0 30px;
+  }
+  .index-head img {
+    width:100%;
+    max-width:240px;
+  }
+  .index-head:after {
+    content:"";
+    display:block;
+    clear:both;
+  }
+
+  .index-head-title {
+    
   }
   .index-head h2 {
     color:white;
     font-size:40px;
     letter-spacing:1.5px;
-    padding-left:180px;
   }
 
+  .index-head-description {
+    color:white;
+    font-size:21px;
+    letter-spacing:1px;
+    margin-top:10px;
+    line-height:1.5;
+  }
+  
   .index-content {
     max-width:860px;
     width:100%;;
@@ -376,15 +401,6 @@
     border:none;
   }
 
-  .index-head-description {
-    color:white;
-    font-size:21px;
-    letter-spacing:1px;
-    margin-top:10px;
-    padding-left:250px;
-    line-height:1.5;
-  }
-  
   .index-start {
     margin:40px auto;
     text-align:center;
@@ -536,18 +552,6 @@
     margin-bottom:0;
   }
 
-  .index-head {
-    padding:0;
-    height:500px;
-    background-position:center 200px;
-  }
-  .index-head h2 {
-    padding:0;
-    padding-top:20px;
-  }
-  .index-head-description {
-    padding:0 10px;;
-  }
   .index-content {
     width:98%;;
     margin:0 auto -10px auto;
@@ -569,5 +573,13 @@
   .index-sitemap-right {
     width:100%;
   }
-
+  .index-head-left {
+    width:100%;
+    padding:30px 5px 10px 5px;
+  }
+  .index-head-right {
+    width:100%;
+    padding:0;
+  }
+  
 }

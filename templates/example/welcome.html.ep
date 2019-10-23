@@ -28,7 +28,7 @@
       <ul>
         <li>
           <a href="https://tutorial.perlzemi.com/">
-            <div style="height:200px;background:green;">
+            <div class="index-courses-item-image">
               
             </div>
             <div class="index-courses-item-title">プログラミング入門講座</div>
@@ -37,7 +37,7 @@
         </li>
         <li>
           <a href="https://text.perlzemi.com/">
-            <div style="height:200px;background:green;">
+            <div class="index-courses-item-image">
               
             </div>
             <div class="index-courses-item-title">テキスト処理入門講座</div>
@@ -46,16 +46,16 @@
         </li>
         <li>
           <a href="https://linux.perlzemi.com/">
-            <div style="height:200px;background:green;">
+            <div class="index-courses-item-image">
               
             </div>
-            <div class="index-courses-item-title">Linxuサーバー管理入門講座</div>
+            <div class="index-courses-item-title">Linxuサーバー入門講座</div>
             <div class="index-courses-item-description">Linuxコマンドを覚えて、サーバー運用の基礎を学ぶ講座</div>
           </a>
         </li>
         <li>
           <a href="https://jp.giblog.net/">
-            <div style="height:200px;background:green;">
+            <div class="index-courses-item-image">
               
             </div>
             <div class="index-courses-item-title">Webサイト制作入門講座</div>
@@ -64,7 +64,7 @@
         </li>
         <li>
           <a href="https://web.perlzemi.com/">
-            <div class="index-courses-item-image"style="height:200px;background:green;">
+            <div class="index-courses-item-image">
               
             </div>
             <div class="index-courses-item-title">Web開発入門講座</div>
@@ -73,11 +73,11 @@
         </li>
         <li>
           <a href="javascript:void(0)">
-            <div style="height:200px;background:green;">
+            <div class="index-courses-item-image">
               
             </div>
             <div class="index-courses-item-title">その他の講座</div>
-            <div class="index-courses-item-description">プログラミングPerlを使ったプログラミングの入門講座</div>
+            <div class="index-courses-item-description">データベース、Web API、ライブラリ作成などその他の講座</div>
           </a>
         </li>
       </ul>
@@ -87,7 +87,7 @@
 
 <div style="clear:both;"></div>
 
-<div style="background:#dfe;padding-bottom:50px;">
+<div style="background:#bfc;padding-bottom:50px;">
   <div class="index-content">
     <section class="index-features">
       <h3 style="font-size:26px; margin:80px 0 20px 0;text-align:center;padding-top:30px;">プログラミングであなたの仕事を楽にしよう<br>あなたの夢をかなえよう<br>工夫次第で、可能性は無限大。</h3>

@@ -11,16 +11,16 @@
   <div class="index-head-left">
     <h2>Perlゼミのプログラミングスクールのご紹介</h2>
     <div class="index-head-description">
-      Perlゼミのプログラミングスクールは<br>プログラミング言語Perlを使ったプログラミングの学習サイトです。<br>プログラミング教育の教材をWeb上で無料で公開しています。
+      Perlゼミのプログラミングスクールはプログラミング言語Perlを使ったプログラミングの学習サイトです。
     </div>
   </div>
   <div class="index-head-right">
     <img src="/images/note-pc-boy.png">
   </div>
 </div>
-<div style="background:white;padding-bottom:50px;">
+<div>
   <div class="index-content">
-    <section class="index-courses">
+    <div class="index-courses">
       <h3>プログラミング基礎講座</h3>
       <div class="index-courses-description">
         プログラミングの基礎講座。プログラミング入門から初めて、テキスト処理、Linuxサーバー、Webサイト制作、Web開発が学べる。
@@ -81,11 +81,9 @@
           </a>
         </li>
       </ul>
-    </section>
+    </div>
   </div>
 </div>
-
-<div style="clear:both;"></div>
 
 <div style="background:#bfc;padding-bottom:50px;">
   <div class="index-content">

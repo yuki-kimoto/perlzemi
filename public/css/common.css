@@ -384,9 +384,10 @@
   }
 
   .index-head-description {
+    padding:0 30px;
     color:white;
-    font-size:21px;
-    letter-spacing:1px;
+    font-size:22px;
+    letter-spacing:2px;
     margin-top:10px;
     line-height:1.5;
   }
@@ -488,6 +489,11 @@
  
   .index-courses ul {
     margin:0 auto;
+  }
+  .index-courses ul:after {
+    content:"";
+    display:block;
+    clear:both;
   }
   .index-courses li {
     list-style:none;
@@ -601,10 +607,13 @@
   .index-features li {
     width:100%;
   }
+  .index-courses {
+    width:100%;
+  }
   .index-courses li {
     width:100%;
-    margin-right:auto;
     margin-left:auto;
+    margin-right:auto;
   }
 
   .index-sitemap-inner {

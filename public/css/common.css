@@ -459,7 +459,11 @@
     color:#111;
     font-size:19px;
   }
-
+  .index-courses {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+  }
   .index-courses h3 {
     color:#122;
     font-size:28px;
@@ -485,24 +489,30 @@
     display:block;
     float:left;
     width:32.3%;
+    max-width:280px;
     background:white;
     margin-left:0.5%;
     margin-right:0.5%;
-    margin-bottom:5px;
-    height:150px;
+    margin-bottom:15px;
     text-align:center;
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
   }
   .index-courses a {
-    padding:20px;
     color:#333;
     text-decoration:none;
     display:block;
     width:100%;
-    height:100%;
-    font-weight:bold;
   }
-  .index-courses-title {
+  .index-courses-item-title {
+    font-weight:bold;
+    padding:10px 0 0px 0;
+    letter-spacing:1px;
+    font-size:17px;
+  }
+  .index-courses-item-description {
+    padding:3px 5px;
+    height:60px;
+    color:#233;
   }
   
   .index-features ul {
@@ -580,6 +590,8 @@
   }
   .index-courses li {
     width:100%;
+    margin-right:auto;
+    margin-left:auto;
   }
 
   .index-sitemap-inner {

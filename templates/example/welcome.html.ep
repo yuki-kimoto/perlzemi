@@ -21,39 +21,63 @@
 <div style="background:white;padding-bottom:50px;">
   <div class="index-content">
     <section class="index-courses">
-      <h3>プログラミング入門講座</h3>
+      <h3>プログラミング基礎講座</h3>
       <div class="index-courses-description">
-        Perlゼミのプログラミングスクールの入門講座。プログラミング入門から初めて、テキスト処理の実践、Linuxサーバー管理、Webサイト制作、Web開発が学べる。
+        プログラミングの基礎講座。プログラミング入門から初めて、テキスト処理、Linuxサーバー、Webサイト制作、Web開発が学べる。
       </div>
-      <ul style="color:#122">
+      <ul>
         <li>
           <a href="https://tutorial.perlzemi.com/">
-            <div class="index-courses-title">プログラミング入門講座</div>
+            <div style="height:200px;background:green;">
+              
+            </div>
+            <div class="index-courses-item-title">プログラミング入門講座</div>
+            <div class="index-courses-item-description">プログラミングPerlを使ったプログラミングの入門講座</div>
           </a>
         </li>
-        <li >
+        <li>
           <a href="https://text.perlzemi.com/">
-            <div class="index-courses-title">テキスト処理入門講座</div>
+            <div style="height:200px;background:green;">
+              
+            </div>
+            <div class="index-courses-item-title">テキスト処理入門講座</div>
+            <div class="index-courses-item-description">テキストの検索・置換・正規表現を自由に使いこなす講座</div>
           </a>
         </li>
-        <li >
+        <li>
           <a href="https://linux.perlzemi.com/">
-            <div class="index-courses-title">Linxuサーバー管理入門講座</div>
+            <div style="height:200px;background:green;">
+              
+            </div>
+            <div class="index-courses-item-title">Linxuサーバー管理入門講座</div>
+            <div class="index-courses-item-description">Linuxコマンドを覚えて、サーバー運用の基礎を学ぶ講座</div>
           </a>
         </li>
-        <li >
+        <li>
           <a href="https://jp.giblog.net/">
-            <div class="index-courses-title">Webサイト制作入門講座</div>
+            <div style="height:200px;background:green;">
+              
+            </div>
+            <div class="index-courses-item-title">Webサイト制作入門講座</div>
+            <div class="index-courses-item-description">Webデザイン・マーケティング・ライティングの講座</div>
           </a>
         </li>
-        <li >
+        <li>
           <a href="https://web.perlzemi.com/">
-            <div class="index-courses-title">Web開発入門講座</div>
+            <div class="index-courses-item-image"style="height:200px;background:green;">
+              
+            </div>
+            <div class="index-courses-item-title">Web開発入門講座</div>
+            <div class="index-courses-item-description">Web開発者のための入門講座。SSLからドメイン管理まで</div>
           </a>
         </li>
-        <li >
+        <li>
           <a href="javascript:void(0)">
-            <div class="index-courses-title">その他の講座</div>
+            <div style="height:200px;background:green;">
+              
+            </div>
+            <div class="index-courses-item-title">その他の講座</div>
+            <div class="index-courses-item-description">プログラミングPerlを使ったプログラミングの入門講座</div>
           </a>
         </li>
       </ul>

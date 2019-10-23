@@ -292,10 +292,6 @@
     border-bottom:none;
   }
 
-  img {
-    max-width:100%;
-  }
-  
   /* メールフォーム */
   .mail-form {
     padding:10px 20px;
@@ -379,8 +375,9 @@
   }
   .index-head h2 {
     color:white;
-    font-size:40px;
+    font-size:38px;
     letter-spacing:1.5px;
+    padding:0 10px;
   }
 
   .index-head-description {
@@ -392,7 +389,7 @@
     line-height:1.5;
   }
   
-  .index-content {
+  .index-inner {
     max-width:860px;
     width:100%;;
     margin:0 auto -10px auto;
@@ -417,9 +414,11 @@
     text-decoration:none;
     border-radius:5px;
     display:inline-block;
-    padding:25px 40px;
-    width:80%;
-    max-width:400px;
+    padding:30px 40px;
+    width:90%;
+    max-width:500px;
+    font-size:20px;
+    font-weight:bold;
   }
   
   a.link, a.link:visited {
@@ -430,44 +429,10 @@
     margin-top:0;
     border-top:0;
   }
-  .index-sitemap {
-    margin-top:50px;
-    background:#cfd;
-    color:#000;
-    padding:20px;
-  }
-  .index-sitemap-inner {
-    width:860px;
-    margin:0 auto;
-  }
-  .index-sitemap-inner:after {
-    content:"";
-    display:block;
-    clear:both;
-  }
-  .index-sitemap-left {
-    float:left;
-    width:50%;
-  }
-  .index-sitemap-right {
-    float:left;
-    width:50%;
-  }
-  .index-sitemap ul {
-    color:#000;
-    margin:0 auto;
-    line-height:1.8;
-  }
-  .index-sitemap li {
-    list-style:none;
-  }
-  .index-sitemap a, .index-sitemap a:visited {
-    color:#111;
-    font-size:19px;
-  }
   .index-courses {
     margin-left:auto;
     margin-right:auto;
+    padding-bottom:40px;
   }
   .index-courses h3 {
     color:#122;
@@ -489,11 +454,12 @@
   .index-courses ul {
     margin:0 auto;
     width:93%;
-  }
-  .index-courses ul:after {
-    content:"";
-    display:block;
-    clear:both;
+    display: -webkit-box; /*Android4.3*/
+    display: -moz-box;    /*Firefox21*/
+    display: -ms-flexbox; /*IE10*/
+    display: -webkit-flex; /*PC-Safari,iOS8.4*/
+    display: flex;
+    flex-wrap:wrap;
   }
   .index-courses li {
     list-style:none;
@@ -526,39 +492,88 @@
   }
   .index-courses-item-image {
     background:#0eb094;
-    height:210px;
+  }
+  .index-courses-item-image img {
+    width:100%;
+  }
+  .index-features {
+    background:#dfe;
+    padding-bottom:50px;
+  }
+  .index-features h3 {
+    font-size:24px;
+    text-align:center;
+    padding:30px 5px 0 5px;
+    color:#202;
   }
   .index-features ul {
     margin:0 auto;
-  }
-  .index-features ul:after {
-    content:"";
-    display:block;
-    clear:both;
+    margin:0 auto;
+    display: -webkit-box; /*Android4.3*/
+    display: -moz-box;    /*Firefox21*/
+    display: -ms-flexbox; /*IE10*/
+    display: -webkit-flex; /*PC-Safari,iOS8.4*/
+    display: flex;
+    flex-wrap:wrap;
   }
   .index-features li {
     list-style:none;
     display:block;
     float:left;
-    width:49.5%;
-    max-width:600px;
-    background:white;
-    margin-right:0.5%;
+    width:41%;
+    margin-right:9%;
     margin-bottom:5px;
     text-align:center;
+    border-radius:8px;
+    text-align:left;
+    color:#202;
   }
   .index-features a {
     display:block;
     width:100%;
     color:inherit;
     text-decoration:none;
-    height:100%;
-    border-radius:5px;
-    padding:27px 0 25px 0;
+    padding:23px 0 17px 40px;
     font-weight:bold;
-    background:#59d979;
+    border-bottom:1px dotted green;
   }
   .index-features a:hover {
+  }
+  .index-sitemap {
+    margin-top:50px;
+    background:#dfe;
+    color:#202;
+    padding:20px;
+  }
+  .index-sitemap-inner {
+    width:860px;
+    margin:0 auto;
+  }
+  .index-sitemap-inner:after {
+    content:"";
+    display:block;
+    clear:both;
+  }
+  .index-sitemap-left {
+    float:left;
+    width:50%;
+  }
+  .index-sitemap-right {
+    float:left;
+    width:50%;
+  }
+  .index-sitemap ul {
+    color:#000;
+    margin:0 auto;
+    line-height:1.8;
+  }
+  .index-sitemap li {
+    list-style:none;
+  }
+  .index-sitemap a, .index-sitemap a:visited {
+    color:#111;
+    font-size:19px;
+    color:#202;
   }
 
 /* Tablet and Smart phone */
@@ -597,7 +612,7 @@
     margin-bottom:0;
   }
 
-  .index-content {
+  .index-inner {
     width:98%;;
     margin:0 auto -10px auto;
     padding:0px 0 0px 0;
@@ -629,5 +644,12 @@
     width:100%;
     padding:0;
   }
-  
+  .index-courses ul {
+    width:100%;
+  }
+  .index-features li {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+  }
 }

@@ -90,8 +90,8 @@
     <section class="index-features">
       <h3 style="font-size:26px; margin:80px 0 20px 0;text-align:center;padding-top:30px;">プログラミングであなたの仕事を楽にしよう<br>あなたの夢をかなえよう<br>工夫次第で、可能性は無限大。</h3>
       <ul>
-        <li >
-          <a href="javascript:void(0)" style="background:#59d979">
+        <li>
+          <a href="javascript:void(0)">
             テキストの検索・一括置換
           </a>
         </li>

@@ -93,51 +93,43 @@
       <h3 style="font-size:26px; margin:80px 0 20px 0;text-align:center;padding-top:30px;">プログラミングであなたの仕事を楽にしよう<br>あなたの夢をかなえよう<br>工夫次第で、可能性は無限大。</h3>
       <ul>
         <li >
-          <a href="javascript:void(0)">
-            <div class="index-features-title">テキストの検索・一括置換</div>
-            <!-- <div><img src="/images/features-icon/replace-icon.png" style="height:80px"></div> -->
+          <a href="javascript:void(0)" style="background:#59d979">
+            テキストの検索・一括置換
           </a>
         </li>
         <li >
           <a href="javascript:void(0)">
-            <div class="index-features-title">定型処理の自動化</div>
-            <!-- <div><img src="/images/features-icon/git-icon.png" style="height:80px"></div> -->
+            定型処理の自動化
           </a>
         </li>
         <li >
           <a href="javascript:void(0)">
-            <div class="index-features-title">サーバーログの解析</div>
-            <!-- <div><img src="/images/features-icon/replace-icon.png" style="height:80px"></div> -->
+            サーバーログの解析
           </a>
         </li>
         <li >
           <a href="javascript:void(0)">
-            <div class="index-features-title">情報発信サイト作成</div>
-            <!-- <div><img src="/images/features-icon/seo-icon.png" style="height:80px"></div> -->
+            情報発信サイト作成
           </a>
         </li>
         <li >
           <a href="javascript:void(0)">
-            <div class="index-features-title">ECサイト作成</div>
-            <!-- <div><img src="/images/features-icon/form-icon.png" style="height:80px"></div> -->
+            ECサイト作成
           </a>
         </li>
         <li >
           <a href="javascript:void(0)">
-            <div class="index-features-title">スマフォアプリ用のJSON生成</div>
-            <!-- <div><img src="/images/features-icon/rebuild-icon.png" style="height:80px"></div> -->
+            スマフォアプリ用のWebサービス開発
           </a>
         </li>
         <li >
           <a href="javascript:void(0)">
-            <div class="index-features-title">Excelの処理を高速化</div>
-            <!-- <div><img src="/images/features-icon/responsive-icon.png" style="height:80px"></div> -->
+            <div class="index-features-title">Excelの処理をデータベース化</div>
           </a>
         </li>
         <li >
           <a href="javascript:void(0)">
-            <div class="index-features-title">テキストデータ分析</div>
-            <!-- <div><img src="/images/features-icon/os-icon.png" style="height:80px"></div> -->
+            <div class="index-features-title">データマーケティング</div>
           </a>
         </li>
       </ul>

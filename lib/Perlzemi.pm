@@ -13,9 +13,8 @@ sub startup {
 
   # Router
   my $r = $self->routes;
-
-  # Normal route to controller
-  $r->get('/')->to('example#welcome');
+  
+  $self->plugin('AutoRoute', route => $r);
 }
 
 1;

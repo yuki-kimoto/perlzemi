@@ -1,5 +1,4 @@
 /* 影の深さ コピペ用
-
   .z-depth-0 {
     box-shadow: none !important;
   }
@@ -21,7 +20,6 @@
   .z-depth-5{
     box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
   }
-
 */
 
 
@@ -32,8 +30,9 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+  }
+  * {
     -webkit-text-size-adjust:100%;
-    color:#122;
   }
   a, a:visited {
     color:#0055FF;
@@ -574,6 +573,53 @@
     color:#111;
     font-size:19px;
     color:#202;
+  }
+
+  /* 会員登録 */
+  .signup {
+    
+  }
+  .signup-title {
+    font-weight:bold;
+    text-align:center;
+    font-size:18px;
+  }
+  .signup-block {
+    width:calc(100% - 15px);
+    max-width:500px;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+    border:1px solid #ddd;
+    border-radius:5px;
+  }
+  .signup-title {
+    
+  }
+  .signup input[type=text], .signup input[type=password] {
+    display:block;
+    width:calc(100% - 15px);
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:12px;
+    margin-bottom:12px;
+    padding:8px 10px;
+    border-radius:3px;
+    border:1px solid #ddd;
+    font-size:16px;
+  }
+  .signup input[type=submit] {
+    display:block;
+    width:calc(50%);
+    max-width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    background:#D82E5D;
+    border:1px solid #D82E5D;
+    color:white;
+    padding:10px 0;
+    border-radius:5px;
   }
 
 /* Tablet and Smart phone */

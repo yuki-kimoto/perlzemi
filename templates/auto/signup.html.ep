@@ -1,6 +1,7 @@
-% layout 'default';
-
-% title '会員登録';
+<%
+  layout 'default';
+  title '会員登録';
+%>
 
 %= include '/include/header';
 

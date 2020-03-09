@@ -14,13 +14,13 @@
 <div class="header-inner">
   <div class="header-left">
     <div class="header-title">
-      <a href="/"><span style="letter-spacing:2px;">Perlゼミの</span><br>プログラミングスクール</a>
+      <a href="/"><span style="letter-spacing:2px;">Perlゼミ - オンラインプログラミングスクール</a>
     </div>
   </div>
   <div class="header-right">
     <ul class="header-menu">
-      <li><a href="/signup" class="otoiawase" title="準備中">会員登録</a></li>
-      <li><a class="otoiawase" style="background-color:#009D82"title="準備中">ログイン</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe6ypMTx5XTh2KbsIgqgPMXNrC5Bo9FKRPVHM_o0jvrH_k28A/viewform" class="otoiawase" >フォーラム登録</a></li>
+      <li><a href="https://perlzemi.slack.com/" class="otoiawase" style="background-color:#009D82">ログイン</a></li>
     </ul>
   </div>
 </div>

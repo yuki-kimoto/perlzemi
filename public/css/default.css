@@ -634,6 +634,11 @@
   .index-courses ul {
     width:100%;
   }
+  .index-courses li {
+    width:100%;
+    padding-top:20px;
+    padding-bottom:20px;
+  }
   .index-features li {
     width:90%;
     margin-left:auto;

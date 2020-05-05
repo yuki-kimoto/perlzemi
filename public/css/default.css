@@ -430,14 +430,15 @@
     width:100%;
   }
   .index-features {
-    background:#dfe;
+    background:#333;
     padding-bottom:50px;
   }
   .index-features h3 {
-    font-size:24px;
+    font-size:18px;
     text-align:center;
     padding:30px 5px 0 5px;
-    color:#202;
+    color:white;
+    margin-bottom:10px;
   }
   .index-features ul {
     margin:0 auto;
@@ -459,12 +460,8 @@
   }
   .index-features a {
     display:block;
-    width:100%;
-    color:inherit;
+    color:white;
     text-decoration:none;
-    padding:23px 0 17px 40px;
-    font-weight:bold;
-    border-bottom:1px dotted green;
   }
   .index-features a:hover {
   }

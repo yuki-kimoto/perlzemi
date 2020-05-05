@@ -1,19 +1,16 @@
 % layout 'default';
-% title 'Perlゼミ - オンライン・プログラミングスクール';
+% title 'おいでよ! Perlゼミ';
 
 <p style="display:none">
-  Perlゼミは、オンラインのプログラミングスクール。プログラミングをオンラインで0から学べる。質問したいときは、フォーラムで。<br>一緒に学んでいる仲間が、質問に答えます。
+  Perlゼミは、オンラインのプログラミングスクール。プログラミングをオンラインで0から学べる。
 </p>
 
 %= include '/include/header';
 
 <div class="index-head">
-  <h2>Perlゼミ - オンライン・プログラミングスクール</h2>
-  <div>
-    <img src="/images/note-pc-boy.png">
-  </div>
+  <h2>おいでよ!Perlゼミ</h2>
   <div class="index-head-description">
-    Perlゼミは、無料のオンラインのプログラミングスクール。<br>プログラミングをオンラインで0から学べる。<br>質問したいときは、フォーラムで。<br>一緒に学んでいる仲間が、質問に答えてくれます。
+    おいでよ! Perlゼミに、無料会員登録で、プログラミングクイズが遊べる。
   </div>
 </div>
 <div>
@@ -21,8 +18,7 @@
     <div class="index-courses">
       <h3>プログラミング基礎講座</h3>
       <div class="index-courses-description">
-        プログラミングの基礎講座。プログラミング入門から初めて、テキスト処理、Linuxサーバー管理、Webデザイン制作、Webサービス開発が学べる。
-      </div>
+        プログラミングの基礎講座。プログラミング入門から初めて、テキスト処理、Linuxサーバー管理、Webデザイン、Webシステム開発が学べる。      </div>
       <ul>
         <li>
           <a href="https://www.youtube.com/channel/UCbeAS6ZXpSKqkzb-Nykb0ZQ">
@@ -56,14 +52,8 @@
         </li>
         <li>
           <a href="https://web.perlzemi.com/">
-            <div class="index-courses-item-title">Webサービス開発入門講座</div>
+            <div class="index-courses-item-title">Webシステム開発講座</div>
             <div class="index-courses-item-description">Web開発者のための入門講座。ECサイトの作成、SSLからドメイン管理まで</div>
-          </a>
-        </li>
-        <li>
-          <a href="https://mariadb.perlzemi.com/">
-            <div class="index-courses-item-title">MariaDBデータベース入門</div>
-            <div class="index-courses-item-description">MariaDBを使ったデータベース・SQLの入門講座</div>
           </a>
         </li>
       </ul>
@@ -71,61 +61,91 @@
   </div>
 </div>
 
+<div class="index-start">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6ypMTx5XTh2KbsIgqgPMXNrC5Bo9FKRPVHM_o0jvrH_k28A/viewform">無料会員登録</a>
+</div>
 
 <div class="index-features">
   <div class="index-inner">
-    <h3>プログラミングであなたの仕事を楽にしよう<br>あなたの夢をかなえよう<br>工夫次第で、可能性は無限大。</h3>
+    <h3>基礎講座</h3>
+      <ul>
+        <li>
+          <a href="https://www.youtube.com/channel/UCbeAS6ZXpSKqkzb-Nykb0ZQ">Youtubeちゃんねる</a>
+        </li>
+        <li>
+          <a href="https://tutorial.perlzemi.com/">プログラミング入門</a>
+        </li>
+        <li>
+          <a href="https://text.perlzemi.com/">テキスト処理・正規表現</a>
+        </li>
+        <li>
+          <a href="https://linux.perlzemi.com/">Linxuサーバー管理</a>
+        </li>
+        <li>
+          <a href="https://webdesign.perlzemi.com/">Webデザイン</a>
+        </li>
+        <li>
+          <a href="https://web.perlzemi.com/">Webシステム開発</a>
+        </li>
+        <li>
+          <a href="https://mariadb.perlzemi.com/">データベース</a>
+        </li>
+        <li >
+          <a href="https://datascience.perlzemi.com/">データサイエンス</a>
+        </li>
+      </ul>
+
+    <h3>書籍案内</h3>
+    <ul>
+      <li >
+        <a href="https://tutorial.perlzemi.com/blog/20120326133275.html">
+          業務に役立つPerl
+        </a>
+      </li>
+    </ul>
+    
+    <h3>読み物</h3>
+    <ul>
+      <li >
+        <a href="https://philosophy.perlzemi.com/">
+          Perlの哲学
+        </a>
+      </li>
+    </ul>
+
+    <h3>オープンソース</h3>
     <ul>
       <li >
         <a href="https://jp.giblog.net/">
-          あなたの情報をWebサイト・ブログで発信
+          Giblog
         </a>
       </li>
       <li >
-        <a href="https://tutorial.perlzemi.com/blog/20120326133275.html">
-          業務を速く終える定型処理の自動化
+        <a href="https://dbix-custom.perlzemi.com/">
+          DBIx::Custom
         </a>
       </li>
       <li >
-        <a href="https://philosophy.perlzemi.com/">
-          プログラミングの歴史と哲学
+        <a href="https://mojodoc.perlzemi.com/">
+          Mojolicious日本語訳
         </a>
       </li>
-      <li >
-        <a href="https://laboratory.perlzemi.com/">
-          大学院レベルのソフトウェア研究
-        </a>
-      </li>
-      <li >
-        <a href="https://datascience.perlzemi.com/">
-          ビジネスデータをデータサイエンスで分析
-        </a>
-      </li>
+    </ul>
+    
+    <h3>研究開発</h3>
+    <ul>
       <li >
         <a href="https://deeplearning.perlzemi.com/">
-          <div class="index-features-title">ディープラーニングを使った人工知能</div>
+          <div class="index-features-title">AI・ディープラーニング</div>
         </a>
       </li>
       <li >
         <a href="https://bio.perlzemi.com/">
-          <div class="index-features-title">遺伝子を解析・バイオインフォマティクス</div>
+          <div class="index-features-title">バイオインフォマティクス</div>
         </a>
       </li>
     </ul>
   </div>
-</div>
-
-<div class="index-inner" style="max-width:860px;width;text-align:center">
-  <h3 style="margin:90px 0 20px 0;font-size:30px;letter-spacing:3px;">Perlゼミフォーラム</h3>
-  <div style="color:#111">
-    プログラムで、ここがどうしてもわからない。前へ進めない。<br>そんなときは、Perlゼミフォーラムをご活用ください。<br>共に学んでいる仲間が質問に答えてくれます。
-  </div>
-</div>
-<div class="index-start">
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6ypMTx5XTh2KbsIgqgPMXNrC5Bo9FKRPVHM_o0jvrH_k28A/viewform">フォーラムへ登録</a>
-</div>
-<div class="index-start">
-  <a href="https://perlzemi.slack.com/" style="background-color:#009D82">ログイン</a>
 </div>
 
 %= include '/include/footer';

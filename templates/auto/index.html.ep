@@ -10,7 +10,7 @@
 <div class="index-head">
   <h2>おいでよ!Perlゼミ</h2>
   <div class="index-head-description">
-    おいでよ! Perlゼミに、無料会員登録で、プログラミングクイズが遊べる。
+    おいでよ! Perlゼミに、無料アカウント登録で、プログラミングクイズが遊べる。
   </div>
 </div>
 <div>
@@ -62,7 +62,7 @@
 </div>
 
 <div class="index-start">
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6ypMTx5XTh2KbsIgqgPMXNrC5Bo9FKRPVHM_o0jvrH_k28A/viewform">無料会員登録</a>
+  <a href="/signup">無料アカウント登録</a>
 </div>
 
 <div class="index-features">

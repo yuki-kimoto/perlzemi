@@ -1,0 +1,60 @@
+<%
+  layout 'default';
+%>
+
+%= include '/include/header';
+
+<style>
+  /* 会員登録 */
+  .signup {
+    background:#fafafa;
+    padding:70px 0;
+  }
+  .signup form {
+    width:calc(100% - 15px);
+    max-width:500px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .signup-title {
+    font-weight:bold;
+    text-align:center;
+    font-size:28px;
+  }
+  .signup input[type=text], .signup input[type=password] {
+    display:block;
+    width:calc(100% - 15px);
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:12px;
+    margin-bottom:12px;
+    padding:17px 10px 15px 10px;
+    border-radius:3px;
+    border:1px solid #ddd;
+    font-size:16px;
+  }
+  .signup input[type=submit] {
+    display:block;
+    width:calc(50%);
+    max-width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    background:#D82E5D;
+    border:1px solid #D82E5D;
+    color:white;
+    padding:15px 0 13px 0;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:20px;
+  }
+</style>
+
+<div class="signup">
+  <form action="<%= url_for %>" method="POST">
+    <div class="signup-title">新規アカウントを作成</div>
+    <%= text_field 'mail', placeholder => 'メールアドレス' %>
+    <%= password_field 'password', placeholder => 'パスワード' %>
+    <%= submit_button 'アカウント登録' %>
+    <%= hidden_field 'op' => 'register' %>
+  </form>
+</div>
